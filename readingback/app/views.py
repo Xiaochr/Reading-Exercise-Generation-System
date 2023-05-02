@@ -3,13 +3,13 @@ from django.http.response import *
 
 import openai
 
-proxies = {
-    "http": "127.0.0.1:2022", 
-    "https": "127.0.0.1:2022"
-}
-openai.proxy = proxies
+# proxies = {
+#     "http": "127.0.0.1:2022", 
+#     "https": "127.0.0.1:2022"
+# }
+# openai.proxy = proxies
 
-openai.api_key = "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"
+openai.api_key = ""
 
 
 def gen_essay(request):
