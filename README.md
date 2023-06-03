@@ -29,7 +29,7 @@ Our reading comprehension exercise generation system provides mainly two feature
 
 An online demo is available [here](http://8.216.54.243:8083/). 
 
-![](./examples/ui.png)
+![](/examples/ui.png)
 
 
 ## Run local demo
@@ -136,7 +136,7 @@ response = openai.ChatCompletion.create(
 
 We conduct extensive evaluations of the generated passages, questions and the usage of our reading exercise generation system, which are visually depicted in the following figure. 
 
-![](./examples/eval.png)
+![](/examples/eval.png)
 
 Some examples of the generated passages and questions are in `.\examples\` folder.
 
